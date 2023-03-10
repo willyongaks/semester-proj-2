@@ -51,7 +51,6 @@ To run the app, run the following commands:
 npm run start
 ```
 
-
 ## Contact
 
 
