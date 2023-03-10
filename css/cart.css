@@ -1,0 +1,128 @@
+:root{
+
+    --remove_color : #e44c4c;
+    --gray_color : #909090;
+    --dark_black : #202020;
+
+
+    /* font sizes */
+    --text-medium: 18px;
+    --text-regular: 16px;
+    --text-light: 14px;
+
+
+    /* font weight */
+    
+    --font-weight-bold: 800;
+    --font-weight-semi-bold: 600;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+
+    /* header  */
+
+    --header-1: 64px;
+    --header-2: 48px;
+    --header-3: 42px;
+    --header-4: 32px;
+    --header-5: 24px;
+}
+
+.nav-link .active {
+    color: var(--primary-color);
+}
+
+.cart_header{
+    text-align: center;
+    padding-bottom: 3em;
+}
+.cart_row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    padding-bottom: 1rem;
+}
+.product_image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding-bottom: 5px;
+
+}
+.product_image img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.product_description{
+    padding-top: 5px;
+    line-height: 10px;
+    font-size: 22px;
+    font-weight: var(--font-weight-bold);
+}
+.product_counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+.add_btn,.subtract_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+
+}
+.product_price{
+    font-weight: var(--font-weight-bold);
+}
+
+.product_remove a{
+    color: var(--remove_color);
+    font: var(--text-light);
+    font-weight: var(--font-weight-medium);
+    padding-top: 1em;
+}
+hr{
+    width: 65%;
+    float: right;
+    margin-right: 5%;
+}
+.product_checkout{
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+}
+.products_total{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.total_items{
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-medium);
+    color: var(--gray_color);
+}
+.total_amount{
+    font-size: var(--header-5);
+    color: var(--dark_black);
+}
+.checkout_btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 1.5em;
+    font-size: var(--text-regular);
+    color: var(--dark_black);
+    margin-bottom: 2rem;
+    
+}
+.checkout_btn:hover{
+    background-color: var(--remove_color);
+    border: none;
+}

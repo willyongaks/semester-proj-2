@@ -1,0 +1,87 @@
+:root {
+
+    /* color pallete */
+    --background-color: #F6F7F9;
+    --primary-color: #BA2727;
+    --secondary-color: #6E757C;
+    --icon-hover-color: #fe302f;
+
+
+    --header-1: 64px;
+    --header-2: 48px;
+    --header-3: 42px;
+    --header-4: 32px;
+
+
+    --text-medium: 18px;
+    --text-regular: 16px;
+    --text-light: 13px;
+
+    /* font weight */
+
+    --font-weight-bold: 700;
+    --font-weight-semi-bold: 600;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Poppins',sans-serif;
+}
+.nav-link .active {
+    color: var(--primary-color);
+}
+.row{
+    background-color: white;
+    border-radius: 30px;
+    background-image: url(/images/giorgio_trovato_Rr_NK_Ff_M9j_JI_unsplash_f5b55f3a5c.jpg);
+    background-repeat: no-repeat;
+    background-size:400px;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.login_Btn{
+    border: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+}
+.login_Btn:hover{
+    background-color: var(--icon-hover-color);
+    color: var(--background-color);
+}
+
+.message-container{
+    width: 50%;
+    color: grey;
+    text-align: center;
+}
+
+.message.error {
+    border-color: red;
+    color: white;
+    background: red;
+}
+
+.message.warning {
+    border-color: orange;
+    color: white;
+    background: orange;
+}
+.message.success {
+    border-color: green;
+    color: white;
+    background: green;
+}
+
+
+@media only screen and (max-width: 989px){
+    .row{
+        background-size: 700px;
+    }
+}

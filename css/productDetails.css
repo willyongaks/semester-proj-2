@@ -1,0 +1,63 @@
+:root {
+
+    /* color pallete */
+    --background-color: #F6F7F9;
+    --primary-color: #BA2727;
+    --secondary-color: #6E757C;
+    --icon-hover-color: #fe302f;
+
+
+    --header-1: 64px;
+    --header-2: 48px;
+    --header-3: 42px;
+    --header-4: 32px;
+
+
+    --text-medium: 18px;
+    --text-regular: 16px;
+    --text-light: 13px;
+
+    /* font weight */
+
+    --font-weight-bold: 700;
+    --font-weight-semi-bold: 600;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+}
+
+.product_details{
+    height: 100vh;
+}
+.product_info{
+    width: 100vw;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+}
+.product_text{
+    width: 100%;
+    
+}
+
+.product_price{
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+.edit_link{
+    margin-bottom: 2em;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 15px 25px;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.edit_link:hover{
+    color: var(--background-color);
+}
