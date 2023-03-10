@@ -59,4 +59,4 @@ npm run start
 ## Contact
 
 
-[My LinkedIn page](linkedin.com/in/william-okerio-ongaki-519519166)
+[My LinkedIn page](https://www.linkedin.com/in/william-okerio-ongaki-519519166/)
